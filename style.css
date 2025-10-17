@@ -50,8 +50,8 @@ body {
   line-height: 18px;
   height: 21px;
   padding: 0 9px;
-  border: 1px solid #dDd;
-  background: #FFF;
+  border: 1px solid #ddd;
+  background: #fff;
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
@@ -92,8 +92,9 @@ button{
 }
 
 .todo__add-btn:hover {
-    color: #3a3A3a;
+    color: #3a3a3a;
 }
+
 /* Heading */
 .todo__section-title {
     color: #333;
@@ -104,23 +105,6 @@ button{
     margin: 0;
     text-transform: uppercase;
 }
-
-/*input[type="text"] {
-    margin: 0;
-    font-size: 18px;
-    line-height: 18px;
-    height: 21px;
-    padding: 0 9px;
-    border: 1px solid #dDd;
-    background: #FFF;
-    border-radius: 6px;
-    font-family: Lato, sans-serif;
-    color: #888;
-}
-
-input[type="text"]:focus {
-    color: #333;
-}*/
 
 /* New Task */
 label[for='new-task'] {
@@ -172,8 +156,8 @@ ul {
      line-height: 18px;
      height: 21px;
      padding: 0 9px;
-     border: 1px solid #dDd;
-     background: #FFF;
+     border: 1px solid #ddd;
+     background: #fff;
      border-radius: 6px;
      font-family: Lato, sans-serif;
      color: #888;
@@ -194,7 +178,7 @@ ul {
 }
 
 .task__btn:hover {
-  color: #3a3A3a;
+  color: #3a3a3a;
 }
 
 .task__btn--delete .task__icon {
