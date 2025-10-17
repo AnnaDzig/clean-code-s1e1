@@ -57,7 +57,7 @@ button{
     outline:none;
 }
 
-button {
+.todo__add-btn {
     background: none;
     border: 0px;
     color: #888;
@@ -67,12 +67,11 @@ button {
     cursor: pointer;
 }
 
-button:hover {
+.todo__add-btn:hover {
     color: #3a3A3a;
 }
 /* Heading */
-h3,
-label[for='new-task'] {
+.todo__section-title {
     color: #333;
     font-weight: 700;
     font-size: 15px;
